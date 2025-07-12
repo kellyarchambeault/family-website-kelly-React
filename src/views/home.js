@@ -108,12 +108,12 @@ const Home = (props) => {
             </header>
             <div className="home-hero-section">
               <div className="home-header11">
-                <h1 className="home-heading10">You can make a difference</h1>
-                <p className="home-caption10">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                </p>
+                <h1 className="home-heading10">Kelly Archambeault</h1>
               </div>
+              <p className="home-caption10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </p>
               <div className="home-buttons1">
                 <button className="button">
                   <span>Donate Now</span>
@@ -126,46 +126,7 @@ const Home = (props) => {
           </div>
           <div className="home-image10"></div>
         </div>
-        <div className="home-details-container">
-          <div className="home-details1">
-            <div className="home-category1">
-              <img alt="image" src="/details-1.svg" className="home-image11" />
-              <p className="home-text12">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-            <div className="home-category2">
-              <img alt="image" src="/details-2.svg" className="home-image12" />
-              <p className="home-text13">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-            <div className="home-category3">
-              <img alt="image" src="/details-3.svg" className="home-image13" />
-              <p className="home-text14">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-          </div>
-        </div>
+        <div className="home-details-container"></div>
       </section>
       <section className="home-mission">
         <div className="home-content11">
@@ -197,19 +158,19 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-images1">
-          <img alt="image" src="/mission-1-400w.png" className="home-image14" />
+          <img alt="image" src="/mission-1-400w.png" className="home-image11" />
           <div className="home-row1">
             <img
               alt="image"
               src="/mission-2-400w.png"
-              className="home-image15"
+              className="home-image12"
             />
           </div>
         </div>
       </section>
       <section className="home-petitions">
         <div className="home-images2">
-          <img alt="image" src="/petition-1400w.png" className="home-image16" />
+          <img alt="image" src="/petition-1400w.png" className="home-image13" />
         </div>
         <div className="home-content12">
           <div className="home-main3">
@@ -327,7 +288,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-images3">
-              <img alt="image" src="/help-1400w.png" className="home-image17" />
+              <img alt="image" src="/help-1400w.png" className="home-image14" />
             </div>
           </div>
           <div id="companies-content" className="home-companies">
@@ -371,7 +332,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-images4">
-              <img alt="image" src="/help-1400w.png" className="home-image18" />
+              <img alt="image" src="/help-1400w.png" className="home-image15" />
             </div>
           </div>
         </div>
@@ -408,7 +369,7 @@ document.getElementById("company").addEventListener("click", function() {
             <img
               alt="image"
               src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1fHxwb3RyYWl0fGVufDB8fHx8MTY3MDkyNjgxNQ&amp;ixlib=rb-4.0.3&amp;w=200"
-              className="home-image19"
+              className="home-image16"
             />
             <p className="home-caption17">Michael Belfort, @helpa</p>
           </div>
@@ -484,13 +445,13 @@ document.getElementById("company").addEventListener("click", function() {
             className="accordion-element home-element1"
           >
             <div className="home-header20">
-              <h3 className="home-text23">
+              <h3 className="home-text20">
                 Lorem ipsum dolor sit ametna aliqua.
               </h3>
               <IconContainer rootClassName="icon-containerroot-class-name4"></IconContainer>
             </div>
             <div data-role="accordion-content" className="accordion-content">
-              <p className="home-text24">
+              <p className="home-text21">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -505,13 +466,13 @@ document.getElementById("company").addEventListener("click", function() {
             className="accordion-element home-element2"
           >
             <div className="home-header21">
-              <h3 className="home-text25">
+              <h3 className="home-text22">
                 Lorem ipsum dolor sit ametna aliqua.
               </h3>
               <IconContainer rootClassName="icon-containerroot-class-name5"></IconContainer>
             </div>
             <div data-role="accordion-content" className="accordion-content">
-              <p className="home-text26">
+              <p className="home-text23">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -526,13 +487,13 @@ document.getElementById("company").addEventListener("click", function() {
             className="accordion-element home-element3"
           >
             <div className="home-header22">
-              <h3 className="home-text27">
+              <h3 className="home-text24">
                 Lorem ipsum dolor sit ametna aliqua.
               </h3>
               <IconContainer rootClassName="icon-containerroot-class-name6"></IconContainer>
             </div>
             <div data-role="accordion-content" className="accordion-content">
-              <p className="home-text28">
+              <p className="home-text25">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -547,13 +508,13 @@ document.getElementById("company").addEventListener("click", function() {
             className="accordion-element home-element4"
           >
             <div className="home-header23">
-              <h3 className="home-text29">
+              <h3 className="home-text26">
                 Lorem ipsum dolor sit ametna aliqua.
               </h3>
               <IconContainer rootClassName="icon-containerroot-class-name7"></IconContainer>
             </div>
             <div data-role="accordion-content" className="accordion-content">
-              <p className="home-text30">
+              <p className="home-text27">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -568,13 +529,13 @@ document.getElementById("company").addEventListener("click", function() {
             className="accordion-element home-element5"
           >
             <div className="home-header24">
-              <h3 className="home-text31">
+              <h3 className="home-text28">
                 Lorem ipsum dolor sit ametna aliqua.
               </h3>
               <IconContainer rootClassName="icon-containerroot-class-name8"></IconContainer>
             </div>
             <div data-role="accordion-content" className="accordion-content">
-              <p className="home-text32">
+              <p className="home-text29">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -644,7 +605,7 @@ document.getElementById("company").addEventListener("click", function() {
       </section>
       <section className="home-updates">
         <div className="home-content24">
-          <div className="home-details2">
+          <div className="home-details">
             <div className="home-header25">
               <h2 className="home-heading19">
                 Get updates and action alerts from Helpa by joining our
@@ -717,9 +678,9 @@ function toggleTos() {
                 <img
                   alt="image"
                   src="/slide-1-1400w.png"
-                  className="home-image20"
+                  className="home-image17"
                 />
-                <span className="home-text33">
+                <span className="home-text30">
                   WFH One year on. Here’s what we’ve learned.
                 </span>
               </div>
@@ -727,9 +688,9 @@ function toggleTos() {
                 <img
                   alt="image"
                   src="https://images.unsplash.com/photo-1670991761566-534b07539db5?ixid=Mnw5MTMyMXwwfDF8YWxsfDEzfHx8fHx8Mnx8MTY3MTAxNTg5Ng&amp;ixlib=rb-4.0.3&amp;w=1400"
-                  className="home-image21"
+                  className="home-image18"
                 />
-                <span className="home-text34">
+                <span className="home-text31">
                   <span>This is a test slide</span>
                   <br></br>
                 </span>
@@ -738,9 +699,9 @@ function toggleTos() {
                 <img
                   alt="image"
                   src="https://images.unsplash.com/photo-1670087670280-7a3e71a7efa6?ixid=Mnw5MTMyMXwwfDF8YWxsfDE1fHx8fHx8Mnx8MTY3MTAxNTg5Ng&amp;ixlib=rb-4.0.3&amp;w=1400"
-                  className="home-image22"
+                  className="home-image19"
                 />
-                <span className="home-text37">
+                <span className="home-text34">
                   <span>This one also!</span>
                   <br></br>
                 </span>
@@ -782,10 +743,10 @@ function toggleTos() {
           </nav>
         </div>
         <div className="home-middle">
-          <span className="home-text40">
+          <span className="home-text37">
             +0 222.345.987 office@helpa.template
           </span>
-          <span className="home-text41">
+          <span className="home-text38">
             Forge Co.13G Eagle Blvd.Nashville, TN 37011-5678
           </span>
         </div>
